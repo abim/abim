@@ -20,8 +20,6 @@ $NODE = "Post";
   <h3><div><img src="<?php echo x_IMG;?>/flask.svg" alt="" style="max-width:1.5em;" /> <?php echo $NODE_PARENT." <small>".$NODE."</small>";?></div></h3>
 </div>
 
-
-
 <section id="tables">
   <div class="row">
     <div class="col-md-2">
