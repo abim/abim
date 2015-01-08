@@ -10,7 +10,7 @@
 */
 
 //live: http://abimanyu.net/exp/anime/api-animeindo.tv.php?m=http://animeindo.tv/NS
-//local: http://abim.dev/exp/anime/api-animeindo.tv.php?m=file:///Users/abim/_WWW/abimanyu-git/2015/abim/exp/anime/ns.html
+//local: http://abim.dev/exp/anime/api-animeindo.tv.php?m=file:///Users/abim/_WWW/abimanyu-git/2015/abim/exp/anime/test/ns.html
 $url = $_REQUEST["m"];
 
 if(empty($_REQUEST["m"])) {
