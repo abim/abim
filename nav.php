@@ -21,7 +21,7 @@
       <ul class="nav navbar-nav">
         <li class="ds"><a href="<?php echo x_BASE;?>/">Dashboard</a></li>
         <li class="dropdown sites">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Abim Sites <b class="caret"></b></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sites <b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li class="blog"><a href="#<?php echo x_BASE;?>/blog/">Blogs</a></li>
             <li class="code"><a href="<?php echo x_BASE;?>/code/">Code Site</a></li>
@@ -29,7 +29,13 @@
             <li class="cv"><a href="#<?php echo x_BASE;?>/cv/">CV Site</a></li>
           </ul>
         </li>
-        <li class"client"><a href="#">Projects Site</a></li>
+        <li class"projects"><a href="#">Projects</a></li>
+        <li class="dropdown exp">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Experiments <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li class="anime"><a href="<?php echo x_BASE;?>/exp/anime/">Anime</a></li>
+          </ul>
+        </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown settings">
